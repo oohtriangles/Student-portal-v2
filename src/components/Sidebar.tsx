@@ -33,7 +33,7 @@ export default function Sidebar({ activeTab, setActiveTab, onNewEntryClick }: Si
     >
       {/* Brand Header */}
       <div id="sidebar-header" className="mb-8 px-4">
-        <h1 className="font-headline-sm text-headline-sm text-primary tracking-tight">Student Portal</h1>
+        <h1 className="font-headline-sm text-headline-sm text-primary tracking-tight font-bold">Student Portal</h1>
         <p className="text-label-md font-label-md text-outline">Productivity Hub</p>
       </div>
 
@@ -62,15 +62,6 @@ export default function Sidebar({ activeTab, setActiveTab, onNewEntryClick }: Si
 
       {/* Bottom Controls */}
       <div id="sidebar-footer" className="mt-auto space-y-1 border-t border-outline-variant pt-4">
-        <button
-          id="btn-sidebar-new-entry"
-          onClick={onNewEntryClick}
-          className="w-full flex items-center justify-center gap-2 py-2.5 mb-4 bg-primary text-on-primary rounded-full text-label-md font-semibold hover:bg-primary-container active:scale-95 transition-all shadow-sm"
-        >
-          <Plus size={16} />
-          <span>New Entry</span>
-        </button>
-
         <button
           id="nav-item-settings"
           onClick={() => setActiveTab('settings')}

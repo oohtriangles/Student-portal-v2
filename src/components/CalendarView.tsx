@@ -271,7 +271,7 @@ export default function CalendarView({ sessions, onAddSession, onDeleteSession }
 
           <button
             type="submit"
-            className="w-full py-2.5 bg-[#FFBF00] text-on-tertiary-fixed rounded-full font-semibold text-label-md hover:brightness-105 active:scale-95 transition-all shadow-sm flex items-center justify-center gap-2"
+            className="w-full py-2.5 bg-[#005da9] text-white rounded-full font-semibold text-label-md hover:brightness-105 active:scale-95 transition-all shadow-sm flex items-center justify-center gap-2"
           >
             <Plus size={16} />
             <span>Block Calendar Time</span>

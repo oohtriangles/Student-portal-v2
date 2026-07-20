@@ -52,7 +52,7 @@ export default function DashboardView({
             <button
               id="btn-set-goals"
               onClick={onSetGoalsClick}
-              className="px-6 py-2.5 bg-[#FFBF00] text-on-tertiary-fixed rounded-full font-headline-sm text-headline-sm hover:brightness-105 transition-all shadow-sm active:scale-95 flex items-center gap-2 cursor-pointer"
+              className="px-6 py-2.5 bg-[#005da9] text-white rounded-full font-headline-sm text-headline-sm hover:brightness-105 transition-all shadow-sm active:scale-95 flex items-center gap-2 cursor-pointer"
             >
               <Target size={18} />
               <span>Set Goals</span>
@@ -152,11 +152,11 @@ export default function DashboardView({
           <div
             id="focus-words-card"
             onClick={onOpenFocusWords}
-            className="bg-[#FFC107] rounded-xl p-6 flex items-center justify-between text-white group cursor-pointer hover:brightness-105 transition-all shadow-sm"
+            className="bg-[#005da9] rounded-xl p-6 flex items-center justify-between text-white group cursor-pointer hover:brightness-105 transition-all shadow-sm"
           >
             <div>
-              <h4 className="font-headline-md text-headline-md mb-1 text-on-tertiary-fixed">Focus Words</h4>
-              <p className="text-on-tertiary-fixed/80 font-body-lg text-body-lg">English</p>
+              <h4 className="font-headline-md text-headline-md mb-1 text-white">Focus Words</h4>
+              <p className="text-white/80 font-body-lg text-body-lg">English</p>
             </div>
             <div className="w-24 h-24 bg-white/20 rounded-lg flex items-center justify-center p-4">
               <img
@@ -172,7 +172,7 @@ export default function DashboardView({
           <div
             id="workshops-card"
             onClick={onOpenWorkshops}
-            className="bg-[#FF5C5C] rounded-xl p-6 flex items-center justify-between text-white group cursor-pointer hover:brightness-105 transition-all shadow-sm"
+            className="bg-[#8B0000] rounded-xl p-6 flex items-center justify-between text-white group cursor-pointer hover:brightness-105 transition-all shadow-sm"
           >
             <div>
               <h4 className="font-headline-md text-headline-md mb-1">Workshops</h4>
