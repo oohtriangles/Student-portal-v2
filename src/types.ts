@@ -69,4 +69,4 @@ export interface UserProfile {
   avatarUrl: string;
 }
 
-export type ActiveTab = 'dashboard' | 'videos' | 'readings' | 'tasks' | 'calendar' | 'settings';
+export type ActiveTab = 'dashboard' | 'videos' | 'readings' | 'tasks' | 'calendar' | 'social' | 'settings';

@@ -16,6 +16,7 @@ import ReadingsView from './components/ReadingsView';
 import TasksView from './components/TasksView';
 import CalendarView from './components/CalendarView';
 import SettingsView from './components/SettingsView';
+import SocialView from './components/SocialView';
 import { 
   Award, 
   CheckCircle, 
@@ -223,6 +224,10 @@ export default function App() {
             onAddSession={handleAddSession}
             onDeleteSession={handleDeleteSession}
           />
+        );
+      case 'social':
+        return (
+          <SocialView />
         );
       case 'settings':
         return (

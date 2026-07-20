@@ -7,7 +7,8 @@ import {
   Calendar as CalendarIcon, 
   Settings as SettingsIcon, 
   LogOut,
-  Plus
+  Plus,
+  MessageSquare
 } from 'lucide-react';
 import { ActiveTab } from '../types';
 
@@ -62,6 +63,19 @@ export default function Sidebar({ activeTab, setActiveTab, onNewEntryClick }: Si
 
       {/* Bottom Controls */}
       <div id="sidebar-footer" className="mt-auto space-y-1 border-t border-outline-variant pt-4">
+        <button
+          id="nav-item-social"
+          onClick={() => setActiveTab('social')}
+          className={`w-full flex items-center gap-3 rounded-full px-4 py-2.5 text-left transition-all duration-200 ${
+            activeTab === 'social'
+              ? 'bg-secondary-container text-on-surface font-semibold'
+              : 'text-on-surface-variant hover:bg-secondary-container/50 hover:text-on-surface'
+          }`}
+        >
+          <MessageSquare size={18} className={activeTab === 'social' ? 'text-primary' : 'text-outline'} />
+          <span className="text-label-md font-medium">Social</span>
+        </button>
+
         <button
           id="nav-item-settings"
           onClick={() => setActiveTab('settings')}
