@@ -1,0 +1,6 @@
+{
+  "name": "Student Portal",
+  "description": "An interactive, beautiful student portal productivity hub featuring dashboards, course videos, readings, task planners, calendars, and goal settings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
